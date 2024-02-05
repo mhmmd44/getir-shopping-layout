@@ -1,0 +1,75 @@
+.category {
+  width: 60%;
+  margin: 5% 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* border: solid 1px black; */
+  background-color: white;
+}
+.title-box {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 600;
+}
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card-box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  margin: 1% 1%;
+}
+.card-box:hover {
+  background-color: #f3f0fe;
+  transition: 0.6s;
+  border-radius: 4px;
+}
+.links {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.carImg-box {
+  width: 50%;
+  height: 50%;
+  border: solid 1px black;
+  border-radius: 4px;
+  object-fit: cover;
+  margin: 10px 18%;
+}
+.Img {
+  width: 100%;
+  height: 100%;
+}
+.cardtitle-box {
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  padding-left: 5px;
+}
+.links-title {
+  width: 100%;
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+  margin-left: 12%;
+}
